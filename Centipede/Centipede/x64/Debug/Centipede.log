@@ -1,0 +1,13 @@
+﻿  SimpleDraw.cpp
+SimpleDraw.obj : error LNK2019: unresolved external symbol __imp___glutInitWithExit referenced in function glutInit_ATEXIT_HACK
+SimpleDraw.obj : error LNK2019: unresolved external symbol __imp_glutInitDisplayMode referenced in function main
+SimpleDraw.obj : error LNK2019: unresolved external symbol __imp_glutInitWindowPosition referenced in function main
+SimpleDraw.obj : error LNK2019: unresolved external symbol __imp_glutInitWindowSize referenced in function main
+SimpleDraw.obj : error LNK2019: unresolved external symbol __imp_glutMainLoop referenced in function main
+SimpleDraw.obj : error LNK2019: unresolved external symbol __imp___glutCreateWindowWithExit referenced in function glutCreateWindow_ATEXIT_HACK
+SimpleDraw.obj : error LNK2019: unresolved external symbol __imp_glutPostRedisplay referenced in function "void __cdecl myKeyboardFunc(unsigned char,int,int)" (?myKeyboardFunc@@YAXEHH@Z)
+SimpleDraw.obj : error LNK2019: unresolved external symbol __imp_glutDisplayFunc referenced in function main
+SimpleDraw.obj : error LNK2019: unresolved external symbol __imp_glutReshapeFunc referenced in function main
+SimpleDraw.obj : error LNK2019: unresolved external symbol __imp_glutKeyboardFunc referenced in function main
+..\Example_1\SimpleDraw\SimpleDraw\glut32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\HP\source\repos\Centipede\x64\Debug\Centipede.exe : fatal error LNK1120: 10 unresolved externals
